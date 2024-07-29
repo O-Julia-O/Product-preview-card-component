@@ -34,3 +34,7 @@ body {
 .card {
     background-color: var(--White);
 }
+
+.card__info {
+    padding: 1.5rem;
+}
