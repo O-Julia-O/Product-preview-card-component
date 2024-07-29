@@ -96,6 +96,15 @@ button {
 @media only screen and (min-width: 47.5em) {
     .card {
         display: flex;
+        flex-flow: wrap;
+    }
+
+    .card__image-div, .card__info {
+        flex: 0 0 50%;
+    }
+
+    .card__info {
+        padding: 2rem;
     }
 
     img {
