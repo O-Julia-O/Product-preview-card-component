@@ -36,6 +36,22 @@ body {
     background-color: var(--White);
 }
 
+.card__info-tag {
+    margin-bottom: 0.75rem;
+}
+
 .card__info {
     padding: 1.5rem;
+}
+
+.card__description h1 {
+    margin-bottom: 1rem;
+}
+
+.card__description p {
+    margin-bottom: 1.5rem;
+}
+
+.card__price {
+    margin-bottom: 1.25rem;
 }
