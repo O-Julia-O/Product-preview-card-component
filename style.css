@@ -56,12 +56,14 @@ body {
     color: var(--Very-dark-blue);
     font-weight: 700;
     font-size: clamp(2rem, calc(2rem + 0.10vh), 3rem);
+    line-height: 1;
 }
 
 .card__description p {
     margin-bottom: 1.5rem;
     color: var(--Dark-grayish-blue);
     font-size: clamp(0.875rem, calc(0.875rem + 0.10vh), 3rem);
+    line-height: 1;
 }
 
 .card__price {
