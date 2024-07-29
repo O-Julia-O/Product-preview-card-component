@@ -28,6 +28,8 @@ body {
 
 .card {
     background-color: var(--White);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card__info-tag {
