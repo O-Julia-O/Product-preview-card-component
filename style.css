@@ -2,6 +2,7 @@
     font-family: "Montserrat", serif;
     src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500..700;1,100..900&display=swap");
 }
+
 @font-face {
     font-family: "Fraunces", serif;
     src: url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap");
@@ -13,10 +14,13 @@
     --Very-dark-blue: #1c232b;
     --Dark-grayish-blue: #6c7289;
     --White: #ffffff;
+
+    --Fraunces: "Fraunces";
+    --Montserrat: "Montserrat";
 }
 
 * {
-    font-family: "Montserrat";
+    font-family: var(--Montserrat);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -46,6 +50,7 @@ body {
 }
 
 .card__description h1 {
+    font-family: var(--Fraunces);
     margin-bottom: 1rem;
     color: var(--Very-dark-blue);
 }
@@ -60,6 +65,7 @@ body {
 }
 
 .card__parfume-price {
+    font-family: var(--Fraunces);
     color: var(--Dark-cyan);
 }
 
