@@ -29,6 +29,7 @@ img {
 
 body {
     background-color: var(--Cream);
+    margin: 1.75rem 1rem;
 }
 
 .card {
