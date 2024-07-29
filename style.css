@@ -23,13 +23,18 @@ img {
 
 body {
     background-color: var(--Cream);
-    margin: 1.75rem 1rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
 
 .card {
     background-color: var(--White);
     border-radius: 10px;
     overflow: hidden;
+    margin: 1.75rem 1rem;
+    max-width: 37.5rem;
 }
 
 .card__info-tag {
@@ -85,4 +90,15 @@ button {
     border-radius: 0.625rem;
     color: var(--Cream);
     font-weight: 700;
+    width: 100%;
+}
+
+@media only screen and (min-width: 47.5em) {
+    .card {
+        display: flex;
+    }
+
+    img {
+        height: 100%;
+    }
 }
