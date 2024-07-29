@@ -27,13 +27,13 @@ body {
     justify-content: center;
     align-content: center;
     height: 100vh;
+    margin: 1.75rem 1rem;
 }
 
 .card {
     background-color: var(--White);
     border-radius: 10px;
     overflow: hidden;
-    margin: 1.75rem 1rem;
     max-width: 37.5rem;
 }
 
@@ -86,11 +86,17 @@ body {
 button {
     background-color: var(--Dark-cyan);
     border: none;
-    padding: 0.938rem 5.75rem;
+    padding: 0.938rem 0;
     border-radius: 0.625rem;
     color: var(--Cream);
     font-weight: 700;
     width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    fill: blue;
 }
 
 @media only screen and (min-width: 47.5em) {
