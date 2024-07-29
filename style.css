@@ -95,8 +95,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
-    fill: blue;
+    gap: 1em;
 }
 
 @media only screen and (min-width: 47.5em) {
