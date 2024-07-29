@@ -37,6 +37,13 @@ body {
     max-width: 37.5rem;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height: 95%;
+}
+
 .card__info-tag {
     margin-bottom: 0.75rem;
     color: var(--Dark-grayish-blue);
